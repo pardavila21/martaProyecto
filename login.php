@@ -4,6 +4,8 @@ require_once 'bd.php';
  * y redirige a la página para mostrar las categorías. Si algo a ocurrido un 
  * problema muestra un mensaje de error */
 
+<h1>TITULO</h1>
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $usu = comprobar_usuario($_POST['usuario'], $_POST['clave']);
